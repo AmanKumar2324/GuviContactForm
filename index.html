@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guvi Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="headerIcon">
+                <img src="https://www.guvi.in/assets/CPYoUJqK-guvilogo-hcl.webp" alt="guvi_logo" height="85%"> 
+            </div>
+            <div id="headerButtons">
+                <div id="header_course_button">Courses</div>
+                <div class="header_buttons">Live Classes</div>
+                <div class="header_buttons">Practice</div>
+                <div class="header_buttons">Resources</div>
+                <div class="header_buttons">Our Solutions</div>
+                <div id="question_icon"><i class="fas fa-question-circle"></i></div>
+                <div id="user_profile"><i class="fas fa-user-circle"></i></div>
+            </div>
+        </div>
+
+        <div id="contactPage">
+            <div id="contactUsSection">
+                <div id="leftHeading">Contact Us</div>
+                <div id="leftSubHeading">Let us know your queries, feedbacks, and inquiries. We are here to support you 24/7.</div>
+                <hr id="separatorLine">
+                <div id="leftElementCards">
+                    <div id="callIcon">
+                        <img src="https://www.guvi.in/assets/Dln4fx0b-phone.webp" alt="Call Icon">
+                    </div>
+                    <div id="calldetails">
+                        <div id="callText">Give us a call</div>
+                        <div id="callNumber">+91 9736097320</div>
+                    </div>
+                </div>
+                <hr id="separatorLine">
+                <div id="leftElementCards">
+                    <div id="callIcon">
+                        <img src="https://www.guvi.in/assets/DRGUPHXp-message.webp" alt="Message Icon">
+                    </div>
+                    <div id="calldetails">
+                        <div id="callText">Write to us</div>
+                        <div id="callNumber">cs@guvi.in</div>
+                    </div>
+                </div>
+                <hr id="separatorLine">
+                <div id="leftElementCards">
+                    <div id="callIcon">
+                        <img src="https://www.guvi.in/assets/BrgqbmZY-location.webp" alt="Location Icon">
+                    </div>
+                    <div id="calldetails">
+                        <div id="callText">Visit us in Chennai @</div>
+                        <div id="callNumber">IITM Research Park - phase 2, module #9, 3rd floor, D block, Kanagam Rd, Tharamani, Chennai, Tamil Nadu 600113</div>
+                        <div id="callText">Visit us in Noida @</div>
+                        <div id="callNumber">A11, HCL Corporation Pvt. Ltd, Block A, Sector 3, Noida, Uttar Pradesh 201307</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contactForm">
+                <div id="rightHeading">Say <span class="highlight">Hello!</span></div>
+                <div id="rightSubhead">Feel free to stop by and say hi!</div>
+                <form id="formFields">
+                    <div class="form-group">
+                        <label for="name">Name <span class="mandatory">*</span></label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Id <span class="mandatory">*</span></label>
+                        <input type="text" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactNumber">Contact Number <span class="mandatory">*</span></label>
+                        <input type="text" id="contactNumber" name="contactNumber" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject <span class="mandatory">*</span></label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message <span class="mandatory">*</span></label>
+                        <input type="text" id="message" name="message" required>
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="submit-button" id="submitBtn">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./dist/app.js"></script>
+</body>
+
+</html>

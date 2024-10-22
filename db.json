@@ -1,0 +1,20 @@
+{
+  "contactUs": [
+    {
+      "id": "a823",
+      "Name": "Aman Singh",
+      "EmailId": "aman@gmail.com",
+      "Contact": "1234567891",
+      "Subject": "Test1",
+      "Message": "This is the test message."
+    },
+    {
+      "id": "ad25",
+      "Name": "Vinayak Mishra",
+      "EmailId": "vinayak@gmail.com",
+      "Contact": "1234567891",
+      "Subject": "Test2",
+      "Message": "This is the test message"
+    }
+  ]
+}
